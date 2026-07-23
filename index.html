@@ -3,14 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Virtual CV Website</title>
+    <title>Murendeni Netshiukhwi | Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <!-- ========== LEFT SIDEBAR ========== -->
     <aside id="sidebar">
         <div class="sidebar-content">
             <div class="logo">
@@ -30,30 +29,252 @@
 
             <div class="sidebar-footer">
                 <div class="socials">
-                    <a href="#"><i class="fa-brands fa-github"></i></a>
-                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/CodeByMc" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/murendeni-netshiukhwi-990134319" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
                 </div>
                 <p>&copy; 2026</p>
             </div>
         </div>
     </aside>
 
-    <!-- ========== MAIN CONTENT ========== -->
     <main id="main-content">
 
         <section id="about">
-            <div class="about-container">
-                <img src="My%20NWU%20Photo.jpeg" alt="Murendeni Netshiukhwi">
-
-                <div class="info-box">
-                    <h3>Hi, I am</h3>
-                    <h1>Murendeni Netshiukhwi</h1>
-                    <span>A final year BSC IT student</span>
-
-                    <div class="btn-group">
-                        <a href="#" class="btn">Download CV</a>
+            <div class="about-hero">
+                <div class="about-left">
+                    <div class="photo-frame">
+                        <img src="My%20NWU%20Photo.jpeg" alt="Murendeni Netshiukhwi">
+                        <div class="photo-accent"></div>
+                    </div>
+                    <div class="status-badge">
+                        <span class="dot"></span> Open to opportunities
                     </div>
                 </div>
+
+                <div class="about-right">
+                    <p class="hello">Hello, I'm</p>
+                    <h1>Murendeni<br>Netshiukhwi</h1>
+                    <div class="title-line">
+                        <span>BSc IT Student</span>
+                        <span class="divider">·</span>
+                        <span>Data Enthusiast</span>
+                    </div>
+
+                    <p class="about-bio">
+                        Final-year Information Technology student at North-West University with a passion for software development, data engineering, and analytics. I love solving problems, building practical solutions, and turning data into meaningful insights. Led a team that delivered a municipal complaint management system with a 96% final mark. Eager to start my career in technology and make a real impact.
+                    </p>
+
+                    <div class="about-stats">
+                        <div class="stat">
+                            <strong>74.8%</strong>
+                            <span>Academic Avg</span>
+                        </div>
+                        <div class="stat">
+                            <strong>94%</strong>
+                            <span>Best Project</span>
+                        </div>
+                        <div class="stat">
+                            <strong>2+</strong>
+                            <span>Major Projects</span>
+                        </div>
+                    </div>
+
+                    <div class="about-btns">
+                        <a href="#" class="btn-main">Download CV</a>
+                        <a href="#contact" class="btn-ghost">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2 class="section-title">Education</h2>
+
+            <div class="edu-grid">
+                <div class="edu-card featured">
+                    <div class="edu-badge">Current</div>
+                    <div class="edu-year">2024 – Present</div>
+                    <h3>BSc Information Technology</h3>
+                    <h4>North-West University, South Africa</h4>
+                    <div class="edu-stat">
+                        <span class="stat-number">74.8%</span>
+                        <span class="stat-label">Academic Average</span>
+                    </div>
+                    <p class="modules-label">Core Modules</p>
+                    <div class="modules-wrap">
+                        <span>Introduction To Computing</span>
+                        <span>Structured Programming</span>
+                        <span>UI Programming</span>
+                        <span>OOP</span>
+                        <span>Advanced UI Programming</span>
+                        <span>System Analysis & Design</span>
+                        <span>Communication Skills</span>
+                        <span>Information Security</span>
+                        <span>Data Structures & Algorithms</span>
+                        <span>Data Analytics</span>
+                        <span>Databases</span>
+                        <span>Advanced Databases</span>
+                        <span>Artificial Intelligence</span>
+                        <span>Computer Networks</span>
+                        <span>Decision Support Systems</span>
+                    </div>
+                </div>
+
+                <div class="edu-card">
+                    <div class="edu-year">2010 – 2015</div>
+                    <h3>BSc Dietetics</h3>
+                    <h4>University of Limpopo</h4>
+                    <p class="edu-note">Healthcare foundation that shaped my analytical approach and attention to detail.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-icon"><i class="fa-solid fa-code"></i></div>
+                    <div>
+                        <h3>Programming</h3>
+                        <p>Python, SQL, Java, C#, C++</p>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon"><i class="fa-solid fa-chart-line"></i></div>
+                    <div>
+                        <h3>Data Analysis</h3>
+                        <p>Preprocessing, Cleaning, EDA, Visualization, Reporting</p>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon"><i class="fa-solid fa-cubes"></i></div>
+                    <div>
+                        <h3>Libraries & Frameworks</h3>
+                        <p>Pandas, Matplotlib, ASP.NET Core, Entity Framework</p>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon"><i class="fa-solid fa-database"></i></div>
+                    <div>
+                        <h3>Databases</h3>
+                        <p>SQL Server, MySQL, Oracle</p>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                    <div>
+                        <h3>Tools</h3>
+                        <p>Excel, Git, Google Colab, Visual Studio, VS Code</p>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon"><i class="fa-solid fa-lightbulb"></i></div>
+                    <div>
+                        <h3>Concepts</h3>
+                        <p>ML Fundamentals, Data Modelling, Algorithms, System Design</p>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon"><i class="fa-solid fa-users"></i></div>
+                    <div>
+                        <h3>Soft Skills</h3>
+                        <p>Analytical Thinking, Problem Solving, Communication, Teamwork</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2 class="section-title">Projects</h2>
+
+            <div class="projects-grid">
+                <div class="project-box">
+                    <div class="project-top">
+                        <div class="project-icon"><i class="fa-solid fa-building"></i></div>
+                        <span class="grade-badge">94%</span>
+                    </div>
+                    <h3>Municipal Complaint Management System</h3>
+                    <p class="project-tag">CMPG 223 · System Analysis & Design</p>
+                    <p class="project-summary">
+                        Designed and developed a full relational database system to manage municipal service requests and complaints with role-based access and reporting.
+                    </p>
+                    <div class="project-tags">
+                        <span>C#</span><span>SQL</span><span>CRUD</span><span>Git</span>
+                    </div>
+                    <a href="https://github.com/CodeByMc/The-Municipal-Complaint-Management-System" target="_blank" class="github-btn">
+                        <i class="fa-brands fa-github"></i> View Project
+                    </a>
+                </div>
+
+                <div class="project-box">
+                    <div class="project-top">
+                        <div class="project-icon"><i class="fa-solid fa-dumbbell"></i></div>
+                        <span class="grade-badge">88%</span>
+                    </div>
+                    <h3>CMA Fitness Management System</h3>
+                    <p class="project-tag">CMPG 311 · Group Project</p>
+                    <p class="project-summary">
+                        Built a complete database system for CMA Fitness gym covering members, trainers, bookings, payments, attendance and equipment tracking.
+                    </p>
+                    <div class="project-tags">
+                        <span>Database</span><span>SQL</span><span>Reporting</span><span>Team</span>
+                    </div>
+                    <a href="https://github.com/CodeByMc/CMA-Fitness-database" target="_blank" class="github-btn">
+                        <i class="fa-brands fa-github"></i> View Project
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2 class="section-title">Experience</h2>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Dietician</h3>
+                            <span class="timeline-date">2016 – Present</span>
+                        </div>
+                        <p class="timeline-role">Healthcare Professional</p>
+                        <ul class="timeline-list">
+                            <li>Analyzed patient health and nutrition data to develop evidence-based nutrition plans</li>
+                            <li>Maintained structured data records and reports for monitoring treatment outcomes</li>
+                            <li>Interpreted medical and nutritional data to identify patterns and health trends</li>
+                            <li>Communicated complex health information clearly to patients and healthcare teams</li>
+                            <li>Applied analytical thinking and problem-solving to evaluate treatment effectiveness</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact-grid">
+                <a href="mailto:murendeni.colbert@gmail.com" class="contact-card">
+                    <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                    <h3>Email</h3>
+                    <p>murendeni.colbert@gmail.com</p>
+                </a>
+                <a href="tel:0825954539" class="contact-card">
+                    <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                    <h3>Phone</h3>
+                    <p>082 595 4539</p>
+                </a>
+                <a href="https://www.linkedin.com/in/murendeni-netshiukhwi-990134319" target="_blank" class="contact-card">
+                    <div class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                    <h3>LinkedIn</h3>
+                    <p>murendeni-netshiukhwi</p>
+                </a>
+                <a href="https://github.com/CodeByMc" target="_blank" class="contact-card">
+                    <div class="contact-icon"><i class="fa-brands fa-github"></i></div>
+                    <h3>GitHub</h3>
+                    <p>CodeByMc</p>
+                </a>
             </div>
         </section>
 
