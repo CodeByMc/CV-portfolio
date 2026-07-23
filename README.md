@@ -1,11 +1,14 @@
 # Murendeni Netshiukhwi — Virtual CV
 
-A personal portfolio website for Murendeni Colbert Netshiukhwi, a final-year BSc Information Technology student at North-West University.
+A personal portfolio website for **Murendeni Colbert Netshiukhwi**, a final-year BSc Information Technology student at North-West University.
 
-I built this site to present my education, skills, projects, and experience in a simple professional format for graduate applications and networking.
+I built this site to present my education, skills, projects, and experience in one clean place for graduate applications and networking.
 
-**Live site:** [https://codebymc.github.io/CV-portfolio/](https://codebymc.github.io/CV-portfolio/)
+[![Live Site](https://img.shields.io/badge/Live_Site-Virtual_CV-20B2AA?style=for-the-badge&logo=google-chrome&logoColor=white)](https://codebymc.github.io/CV-portfolio/)
+[![GitHub](https://img.shields.io/badge/GitHub-CodeByMc-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/CodeByMc)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/murendeni-netshiukhwi-990134319)
 
+---
 
 ## About the Project
 
@@ -13,6 +16,7 @@ This Virtual CV complements my traditional CV, GitHub profile, and LinkedIn prof
 
 It reflects my background as an IT student with previous professional experience in healthcare as a Dietician, and highlights my interest in software development, data analytics, and database systems.
 
+---
 
 ## Features
 
@@ -27,7 +31,9 @@ It reflects my background as an IT student with previous professional experience
 - Contact cards for email, phone, LinkedIn, and GitHub
 - Responsive layout for desktop, tablet, and mobile
 
-# Website Sections
+---
+
+## Website Sections
 
 1. About  
 2. Education  
@@ -36,17 +42,29 @@ It reflects my background as an IT student with previous professional experience
 5. Experience  
 6. Contact  
 
-# Technologies Used
+---
 
-- HTML5  
-- CSS  
-- Font Awesome  
-- Google Fonts (Quicksand)  
-- Git & GitHub  
-- Visual Studio Code  
-- GitHub Pages  
+## Technologies Used
 
-# Project Structure
+<p>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Font_Awesome-528DD7?style=for-the-badge&logo=fontawesome&logoColor=white" alt="Font Awesome" />
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/Quicksand-4285F4?style=for-the-badge&logo=googlefonts&logoColor=white" alt="Google Fonts" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub_Pages-222222?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Pages" />
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code" />
+</p>
+
+---
+
+## Project Structure
+
+```text
 CV-portfolio/
 ├── index.html
 ├── style.css
