@@ -48,9 +48,9 @@ It reflects my background as an IT student with previous professional experience
 
 # Project Structure
 CV-portfolio/
-├── index.html                      # Page structure and content
-├── style.css                       # Styling and layout
-├── script.js                       # Navigation and interactions
-├── My NWU Photo.jpeg               # Profile photo
-├── Murendeni_Netshiukhwi_CV.pdf    # Downloadable resume
+├── index.html
+├── style.css
+├── script.js
+├── My NWU Photo.jpeg
+├── Murendeni_Netshiukhwi_CV.pdf
 └── README.md
