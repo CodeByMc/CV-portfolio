@@ -4,9 +4,8 @@ A personal portfolio website for **Murendeni Colbert Netshiukhwi**, a final-year
 
 I built this site to present my education, skills, projects, and experience in one clean place for graduate applications and networking.
 
-[![Live Site](https://img.shields.io/badge/Live_Site-Virtual_CV-20B2AA?style=for-the-badge&logo=google-chrome&logoColor=white)](https://codebymc.github.io/CV-portfolio/)
-[![GitHub](https://img.shields.io/badge/GitHub-CodeByMc-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/CodeByMc)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/murendeni-netshiukhwi-990134319)
+### 🔗 Live CV: [![Virtual CV](https://img.shields.io/badge/Virtual_CV-20B2AA?style=for-the-badge&logo=google-chrome&logoColor=white)](https://codebymc.github.io/CV-portfolio/)
+
 
 ---
 
